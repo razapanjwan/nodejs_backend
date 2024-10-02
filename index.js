@@ -12,7 +12,14 @@ app.get('/api/helloworld', (req, res) => {
     res.json({message:"Hello world! "})
 })
 
+// app.post('/api/postdata',(req,res)=>{
+//   console.log('recieving data ...')
+//   console.log('this is the body',req.body)
+//   res.send(req.body)
+// })
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
 
